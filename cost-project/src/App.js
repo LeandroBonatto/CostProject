@@ -3,8 +3,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <h1>Hello React</h1>
-      <p>First Code App</p>
+      <h2>Alterando o JSX</h2>
     </div>
   );
 }
