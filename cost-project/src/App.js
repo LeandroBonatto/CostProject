@@ -9,11 +9,14 @@ function App() {
     return a + b
   }
 
+  const url = 'https://via.placeholder.com/150'
+
   return (
     <div className="App">
       <h2>Changing the JSX</h2>
       <p>Hello, {newName}</p>
       <p>Sum: {sum(1, 2)}</p>
+      <img src={url} alt="My picture" />
     </div>
   );
 }
