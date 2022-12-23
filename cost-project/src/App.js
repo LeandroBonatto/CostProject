@@ -18,6 +18,7 @@ function App() {
       <p>Hello, {newName}</p>
       <p>Sum: {sum(1, 2)}</p>
       <img src={url} alt="My picture" />
+      <HelloWorld/>
     </div>
   );
 }
