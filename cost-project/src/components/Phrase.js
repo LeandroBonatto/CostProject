@@ -1,3 +1,5 @@
+import styles from './Phrase.module.css'
+
 function Phrase() {
     return(
         <div>
