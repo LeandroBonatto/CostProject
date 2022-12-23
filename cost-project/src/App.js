@@ -9,7 +9,6 @@ function App() {
 
   return (
     <div className="App">
-      <HelloWorld/>
       <SayMyName name="Matt"/>
       <SayMyName name="John"/>
       <SayMyName name={name} />
