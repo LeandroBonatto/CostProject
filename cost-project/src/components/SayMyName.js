@@ -1,6 +1,11 @@
 function SayMyName(props) {
 
-    return()
+    return(
+        <div>
+            <p>What's up {props.nome}</p>
+        </div>
+
+    )
 
 }
 
