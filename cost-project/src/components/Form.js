@@ -18,8 +18,8 @@ function Form() {
                         laceholder="Write your name"
                     />
                 </div>
-                <label htmlFor="password">Password: </label>
                 <div>
+                    <label htmlFor="password">Password: </label>
                     <input 
                         type="password" 
                         id="password" 
