@@ -18,6 +18,7 @@ function App() {
       <SayMyName name="John"/>
       <SayMyName name={name} />
       <Person name="Rod" age="28" carrer="Programmer" pic="https://via.placeholder.com/150" />
+      <list />
     </div>
   )
 }
