@@ -1,7 +1,9 @@
-function Item(props) {
+import PropTypes from 'prop-types'
+
+function Item({brand, year_release}) {
     return (
         <>
-            <li>{props.marca}</li>
+            <li>{brand} - {year_release}</li>
         </>
     )
 }
