@@ -8,4 +8,14 @@ function Item({brand, year_release}) {
     )
 }
 
+Item.PropTypes = {
+    brand: PropTypes.string.isRequired,
+    year_release: PropTypes.number,
+}
+
+Item.defaultProps = {
+    brand: 'Missing brand',
+    year_release: 0,
+}
+
 export default Item
