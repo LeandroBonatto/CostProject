@@ -1,11 +1,10 @@
 import { useState } from 'react'
 
 function Form() {
-
     function register(e) {
         e.preventDefault()
         console.log(name)
-        console.log('Registration done!')
+        console.log('User ${name} was registred with password: ${password}')
     }
 
     const[name, setName] = useState()
