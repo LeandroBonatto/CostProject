@@ -10,12 +10,22 @@ function Form() {
             <h1>Fill up:</h1>
             <form onSubmit={register}>
                 <div>
-                    <label htmlFor="name"></label>
-                    <input type="text" id="name" name="name" placeholder="Write your name" ></input>
+                    <label htmlFor="name">Name: </label>
+                    <input 
+                        type="text" 
+                        id="name" 
+                        name="name"
+                        laceholder="Write your name"
+                    />
                 </div>
-                <label htmlFor="password"></label>
+                <label htmlFor="password">Password: </label>
                 <div>
-                    <input type="password" id="password" name="password" placeholder="Write your pasword" ></input>
+                    <input 
+                        type="password" 
+                        id="password" 
+                        name="password" 
+                        placeholder="Write your pasword" 
+                    />
                 </div>
                 <div>
                     <input type="submit" value="registration"></input>
