@@ -4,10 +4,12 @@ function Form() {
 
     function register(e) {
         e.preventDefault()
+        console.log(name)
         console.log('Registration done!')
     }
 
     const[name, setName] = useState()
+    const[password, setPassword] = useState()
 
     return (
         <div>
@@ -19,7 +21,8 @@ function Form() {
                         type="text" 
                         id="name" 
                         name="name"
-                        laceholder="Write your name"
+                        placeholder="Write your name"
+                        onChange={(e) => setName(e.target.value)}
                     />
                 </div>
                 <div>
@@ -28,7 +31,8 @@ function Form() {
                         type="password" 
                         id="password" 
                         name="password" 
-                        placeholder="Write your pasword" 
+                        placeholder="Write your pasword"
+                        onChange={(e) => setPassword(e.target.value)}
                     />
                 </div>
                 <div>
