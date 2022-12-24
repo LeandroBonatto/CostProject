@@ -24,7 +24,7 @@ function App() {
         carrer="Programmer" 
         pic="https://via.placeholder.com/150" 
       />
-      <list />
+      <List />
     </div>
   )
 }
