@@ -1,9 +1,13 @@
+import { useState } from 'react'
+
 function Form() {
 
     function register(e) {
         e.preventDefault()
         console.log('Registration done!')
     }
+
+    const[name, setName] = useState()
 
     return (
         <div>
