@@ -1,6 +1,7 @@
 function Form() {
 
-    function register() {
+    function register(e) {
+        e.preventDefault()
         console.log('Registration done!')
     }
 
