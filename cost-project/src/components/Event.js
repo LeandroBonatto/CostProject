@@ -1,7 +1,7 @@
-function Event() {
+function Event({ number }) {
 
     function myEvent() {
-        console.log('Good, I have been activated')
+        console.log('Good, I have been activated ${number}')
     }
 
     return(
