@@ -12,19 +12,8 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Testing CSS</h1>
-      <Phrase />
-      <Phrase />
-      <SayMyName name="Matt"/>
-      <SayMyName name="John"/>
-      <SayMyName name={name} />
-      <Person 
-        name="Rod" 
-        age="28" 
-        carrer="Programmer" 
-        pic="https://via.placeholder.com/150" 
-      />
-      <List />
+      <h1>Testing Events</h1>
+
     </div>
   )
 }
