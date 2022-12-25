@@ -7,6 +7,7 @@ function Event({ number }) {
     return(
         <div>
             <p>Click here for an Event:</p>
+            <button text="First Event" />
             <button onClick={myEvent}>Active</button>
         </div>
     )
