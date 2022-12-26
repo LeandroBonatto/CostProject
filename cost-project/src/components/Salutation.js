@@ -1,6 +1,9 @@
-function Salutation() {
-
-    return <><p>{name}</p></>
+function Salutation({name}) {
+    return (
+    <>
+        <p>{name}</p>
+    </>
+    )
 }
 
 export default Salutation
