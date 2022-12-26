@@ -1,12 +1,11 @@
 import './App.css'
-import Condicional from './components/Condicional'
 
 function App() {
 
+  const myItens = ['React', 'Vue', 'ANgular']
   return (
     <div className="App">
-      <h1>Condicional Rendering</h1>
-      <Condicional />
+      <h1>List Rendering</h1>
     </div>
   )
 }
