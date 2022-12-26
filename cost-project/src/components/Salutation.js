@@ -1,7 +1,13 @@
 function Salutation({name}) {
+    function generateSalutation(anyName) {
+    return 'Hello, ${anyName}, everything ok?'
+    }
+
+
+
     return (
     <>
-        <p>{name}</p>
+        <p>{generateSalutation(name)}</p>
     </>
     )
 }
