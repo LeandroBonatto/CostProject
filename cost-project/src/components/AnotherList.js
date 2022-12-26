@@ -1,9 +1,12 @@
 function AnotherList({ itens }) {
-retur (
-    <>
-    
-    </>
-)
+    return (
+        <>
+            <h3>Good Things list:</h3>
+            {itens.map((item)) => (
+                <p>{item}</p>
+            ))}
+        </>
+    )
 }
 
-return default AnotherList
+export default AnotherList
