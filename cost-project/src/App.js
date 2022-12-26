@@ -12,7 +12,7 @@ function App() {
     <div className="App">
       <h1>State Lift</h1>
       <YourName setName={setName}  />
-      {Salutation}
+      <Salutation name={name} />
     </div>
   )
 }

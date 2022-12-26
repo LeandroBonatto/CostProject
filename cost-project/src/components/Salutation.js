@@ -1,6 +1,6 @@
 function Salutation() {
 
-    return <><p>Salutation</p></>
+    return <><p>{name}</p></>
 }
 
 export default Salutation
