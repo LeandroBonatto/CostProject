@@ -2,8 +2,8 @@ function AnotherList({ itens }) {
     return (
         <>
             <h3>Good Things list:</h3>
-            {itens.map((item)) => (
-                <p>{item}</p>
+            {itens.map((item, index)) => (
+                <p key={index}>{item}</p>
             ))}
         </>
     )
