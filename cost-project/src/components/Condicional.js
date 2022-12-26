@@ -22,11 +22,13 @@ function Condicional () {
                 <button type="submit" onClick={sendEmail}>
                     Send email
                 </button>
-                {userEmail}
+                {userEmail && (
+                    <div>
+                        <p>User email is: {userEmail}</p>
+                    </div>
+                )}
             </form>
-
         </div>
-
     )
 }
 
