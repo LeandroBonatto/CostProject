@@ -9,6 +9,7 @@ function App() {
     <div className="App">
       <h1>List Rendering</h1>
       <AnotherList itens={myItens} />
+      <AnotherList itens={[]} />
     </div>
   )
 }
