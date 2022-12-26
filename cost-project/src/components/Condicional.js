@@ -3,11 +3,13 @@ import { useState } from "react"
 function Condicional () {
 
     const [email, setEmail] = useState()
+    const [userEmail, setUserEmail] = useState()
 
 
     function sendEmail(e) {
         e.preventDefault()
-        console.log('Testing')
+        setUserEmail(email)
+        console.log(userEmail)
     }
 
     return (
@@ -20,6 +22,7 @@ function Condicional () {
                 <button type="submit" onClick={sendEmail}>
                     Send email
                 </button>
+                {userEmail}
             </form>
 
         </div>
