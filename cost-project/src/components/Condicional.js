@@ -12,6 +12,10 @@ function Condicional () {
         console.log(userEmail)
     }
 
+    function cleanUpEmail() {
+        setUserEmail('')
+    }
+
     return (
         <div>
             <h2>Sign in your email:</h2>
@@ -25,6 +29,7 @@ function Condicional () {
                 {userEmail && (
                     <div>
                         <p>User email is: {userEmail}</p>
+                        <button onClick={cleanUpEmail}>Clean Up Email</button>
                     </div>
                 )}
             </form>
