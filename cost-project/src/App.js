@@ -8,6 +8,12 @@ function App() {
             <li>
               <Link to="/"></Link>
             </li>
+            <li>
+              <Link to="/company">Company</Link>
+            </li>
+            <li>
+              <Link to="/contact">Contact</Link>
+            </li>
         </ul>
     </Router>
   )
