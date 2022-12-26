@@ -1,4 +1,4 @@
-function YourName() {
+function YourName({setName}) {
     return (
         <div>
             <p>Write your name:</p>
